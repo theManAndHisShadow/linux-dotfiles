@@ -1,0 +1,111 @@
+#window,
+#box,
+#search,
+#password,
+#input,
+#typeahead,
+#spinner,
+#list,
+child,
+scrollbar,
+slider,
+#item,
+#text,
+#label,
+#sub,
+#activationlabel {
+  all: unset;
+}
+
+#window {
+  background: none;
+  color: #dcd7ba;
+}
+
+#box {
+  background: rgba(10, 10, 10, 0.98);
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+#search {
+  padding-left: 6px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#password,
+#input,
+#typeahead {
+  padding: 8px;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+#input > *:first-child,
+#typeahead > *:first-child {
+  margin-right: 12px;
+}
+
+#spinner {
+}
+
+#typeahead {
+  color: #72a7bc;
+}
+
+#input placeholder {
+  opacity: 0.5;
+}
+
+#list {
+  background: none;
+}
+
+child {
+  box-shadow: none;
+}
+
+child:selected,
+child:hover {
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.075);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#item {
+  padding: 5px;
+}
+
+#icon {
+}
+
+#text {
+}
+
+#label {
+}
+
+#sub {
+  font-size: smaller;
+  opacity: 0.5;
+}
+
+#activationlabel {
+  opacity: 0.5;
+}
+
+.activation #activationlabel {
+  opacity: 1;
+  color: #72a7bc;
+}
+
+.activation #text,
+.activation #icon,
+.activation #search {
+  opacity: 0.5;
+}
